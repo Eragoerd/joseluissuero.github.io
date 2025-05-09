@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Categorías</title>
+    <title>Categorías de Aplicaciones</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -18,23 +18,45 @@
             font-size: 3em;
             margin-bottom: 20px;
         }
-        ul {
-            list-style: none;
-            padding: 0;
+        h2 {
+            font-size: 2em;
+            margin-top: 40px;
+            color: #00c6ff;
         }
-        li {
-            font-size: 1.5em;
-            margin: 15px 0;
+        p {
+            font-size: 1.2em;
+            margin: 10px 0 30px;
+        }
+        .category {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 15px;
+            background-color: #00c6ff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+            font-size: 1.1em;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .category:hover {
+            background-color: #0072ff;
         }
     </style>
 </head>
 <body>
-    <h1>📂 Categorías de Apps</h1>
-    <ul>
-        <li>📱 Aplicaciones Móviles</li>
-        <li>💻 Aplicaciones de Escritorio</li>
-        <li>🎮 Juegos</li>
-        <li>🛠️ Herramientas de Productividad</li>
-    </ul>
+    <h1>📂 Categorías de Aplicaciones</h1>
+
+    <h2>💻 Aplicaciones de Escritorio</h2>
+    <h3>📼 Grabador IVR</h3>
+    <p>Aplicación que permite grabar de forma rápida y sencilla los audios para IVR en formato compatible (.wav 8000Hz, mono, PCM), ideal para sistemas telefónicos como Issabel PBX.</p>
+    <a href="#" class="category">💳 Comprar Grabador IVR</a>
+
+    <h3>💰 Generador de Montos</h3>
+    <p>Herramienta para generar montos aleatorios de forma rápida, ideal para pruebas de sistemas de cobros, simulaciones de pagos o validaciones de interfaces financieras.</p>
+    <a href="#" class="category">💳 Comprar Generador de Montos</a>
+
+    <p style="margin-top:50px; font-size:0.9em; color:#bbbbbb;">&copy; 2025 - Mi Tienda de Aplicaciones</p>
 </body>
 </html>
+
